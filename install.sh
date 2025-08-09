@@ -58,6 +58,10 @@ fi
 if ! grep -q "$BIN_DIR" "$HOME/.bashrc" 2>/dev/null; then
     echo "" >> "$HOME/.bashrc"
     echo "# Add StreamSpeak to PATH" >> "$HOME/.bashrc"
-    echo "export PATH=\"
-    echo "${GREEN}Installation complete!${NC}"
+    echo "export PATH=\"$HOME/.local/bin:\$PATH\"" >> "$HOME/.bashrc"
+    echo "PATH updated in ~/.bashrc. Please restart your terminal or run 'source ~/.bashrc'."
+fi
+
+echo ""
+echo -e "${GREEN}Installation complete!${NC}"
 echo "Run 'streamspeak --help' to get started."
