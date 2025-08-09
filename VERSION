@@ -1,0 +1,13 @@
+LEXY_VERSION=1.0.0
+INSTALLATION_DATE=2025-08-08
+AUTHOR=ramo-dev
+GITHUB=https://www.github.com/ramo-dev
+PIPER_VERSION=1.3.0
+PYTHON_VERSION=3.13.5
+PLATFORM=Linux-Arch
+
+# Components installed:
+# - Piper TTS (Neural Text-to-Speech Engine)
+# - Voice Models: Amy (Female), Ryan (Male)  
+# - CLI Tools: speak, tts-tool
+# - Documentation: README.md, config.conf
